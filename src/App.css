@@ -1,7 +1,13 @@
-.App {
+/* .App{
   text-align: center;
-}
-
+  background-image: url(components/images/1_1.jpg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+ 
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,9 +17,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,9 +28,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
 }
 
@@ -35,4 +41,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body{
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('http://ebbo.global/wp-content/uploads/2018/08/4k-wallpapers-phone-Is-4K-Wallpaper.jpg') fixed repeat;
+  background-size: cover;
+}
+.app-wrapper{
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+
+grid-template-areas: 
+"h h "
+"n c ";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.app-wrapper-content{
+    margin-top: 15px;
+    grid-area: c;
 }

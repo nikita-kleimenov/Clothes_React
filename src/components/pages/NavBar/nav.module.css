@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+.menu{
+    display: flex;
+    align-items: flex-end;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    color:white;
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;;
+    font-weight: 200;
+    background-color:white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width:100%;
+    height: 50px;
+}
+
+.menus{
+    display: flex;
+    position:absolute;
+    top:10px;
+    right:100px;
+    font-family: 'Lato';
+    color: black;
+    font-weight: 700;
+}
+.item{
+    
+    margin-left: 40px;
+    color:white;
+    font-size: 18px;
+}
+
+.items{
+    text-decoration: none;
+    color:black
+}
+.items:hover{
+    color:black;
+    text-decoration: underline;
+}
+.item a.activeLink{
+    color: black;
+    text-decoration: underline;
+}
+
+
+.logo{
+    user-select: none;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    color:black;
+    font-family: 'New Tegomin';
+    font-size: 40px;
+}
+.logo h2{
+    font-size: 50px;
+}
+
+.email{
+    position: absolute;
+    top: 10px;
+    color:black;
+    left:10px;
+}
+
+.shopping{
+    color:black;
+    position: relative;
+    top:-5px
+}

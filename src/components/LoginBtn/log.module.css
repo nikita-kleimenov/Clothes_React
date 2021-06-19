@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+.log{
+    font-family: 'Lato';
+    background:transparent;
+    color:gray;
+    font-weight: 700;
+    border-radius:10px;
+    border: 1px solid gray;
+    position:absolute;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    top:5px;
+    right: 500px
+}
+.log:hover{
+    text-decoration: underline;
+}
+
+.logout{
+    font-family: 'Lato';
+    background:transparent;
+    color:gray;
+    font-weight: 700;
+    border-radius:10px;
+    border: 1px solid gray;
+    position:absolute;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    top:5px;
+    right: 500px
+}
+.logout:hover{
+    text-decoration: underline;
+}
+
+

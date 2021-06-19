@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+.wrapper{
+
+    background:url(../../images/bgGirl.jpg)center center ;
+    box-shadow: inset 2px 2px 3px rgba(154, 147, 140, 0.5), 1px 1px 3px rgba(255, 255, 255, 1);
+    font-family: 'Lato';
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: absolute;
+    left:0;
+    right:0;
+    top:100px;
+    width:90%;
+    margin: 0 auto;
+    z-index: -1;
+}
+.info{
+    /* display: flex;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height:100px;
+    margin: -50px 0 0 -150px; */
+}
+
+.infoText{
+    position: absolute;
+    font-size: 40px;
+    color: 	#585858;
+    width:200px;
+    font-weight: 700;
+    left:280px;
+    top: 100px
+
+    
+}
+.btn{
+    width:200px;
+    color: black;
+   
+}
+.btn .button{
+    background:transparent;
+    width: 200px;
+    height:70px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: gray;
+    outline: none;
+    padding-top: 12px;
+    padding-left: 50px;
+    font-weight: 900;
+    position: absolute;
+    top: 300px;
+    right: 285px;
+}
+
+.btn .button:hover{
+    transition: .5s ease-in;
+}
+
+.btn .button:active{
+    font-size: 27px;
+    transition: .1s ease-out;
+}
+.point1{
+    position: relative;
+}
+.point2{
+    position: relative;
+    
+}
+.point3{
+    position: relative;
+}
+.point4{
+    position: relative;
+}
